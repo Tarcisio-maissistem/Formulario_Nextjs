@@ -1,11 +1,11 @@
+## Começando
 
-## Getting Started
-
-1. run `npm install` to install all of the dependencies
-2. in order to run this project properly you need to run Next.js development server and Node API server at the same time
-3. to run Next.js application run `npm run dev` and open browser at localhost:3000
-4. to run Node API server run `npm run server` in new terminal window(servers has to run at the same time), it will run server at localhost:3001
-5. create `.env` file in root folder with values of:
+1. execute `npm install` para instalar todas as dependências
+2. para executar este projeto corretamente, você precisa executar o servidor de desenvolvimento Next.js e o servidor Node API ao mesmo tempo
+3. para executar o aplicativo Next.js, execute `npm run dev` e abra o navegador em localhost: 3000
+4. para executar o servidor Node API, execute `npm run server` na nova janela do terminal (os servidores devem ser executados ao mesmo tempo)
+ele executará o servidor em localhost: 3001
+5. crie o arquivo `.env` na pasta raiz com valores de:
 
 ```javascript
 GOOGLE_USER=YOUR_GOOGLE_EMAIL // e.g test@gmail.com
@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Open [http://localhost:3001/api/test](http://localhost:3001/api/test) with your browser to test API Server
 
-Follow more Lectures at [Youtube](https://www.youtube.com/channel/UCBA_4Q-Gk4bJxRrtpfdvTzw)
+Siga mais palestras no [Youtube] (https://www.youtube.com/channel/UCBA_4Q-Gk4bJxRrtpfdvTzw)
