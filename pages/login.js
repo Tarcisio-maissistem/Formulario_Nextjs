@@ -30,13 +30,13 @@ const Login = () => {
                 ref={register}
                 type="email"
                 name="email"
-                placeholder="Enter email" />
+                placeholder="Digite seu email" />
               <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
               </Form.Text>
             </Form.Group>
             <Form.Group controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label>Senha</Form.Label>
               <Form.Control
                 ref={register}
                 name="password"

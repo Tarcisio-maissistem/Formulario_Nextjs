@@ -24,10 +24,10 @@ const Register = () => {
     <div className="bwm-form">
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
-          <PageTitle text="Register"/>
+          <PageTitle text="Registro"/>
           <Form onSubmit={handleSubmit(onSubmit)}>
             <Form.Group controlId="formUsername">
-              <Form.Label>Username</Form.Label>
+              <Form.Label>Usuário</Form.Label>
               <Form.Control
                 ref={register}
                 name="username"
